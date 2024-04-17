@@ -38,7 +38,7 @@ class Animal {
 }
 
 // dog subclass
-class Dog extends Animal {
+export class Dog extends Animal {
   _breed: string;
   _walked: boolean;
   constructor(
@@ -67,7 +67,7 @@ class Dog extends Animal {
 }
 
 // cat subclass
-class Cat extends Animal {
+export class Cat extends Animal {
   constructor(name: string, age: number, owner: string[]) {
     super(name, age, owner);
   }
