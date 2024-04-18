@@ -11,14 +11,14 @@ export default function Home() {
     false
   );
 
-  const dogAshWoodinPlain = {
-    name: dogAshWoodin.name,
-    age: dogAshWoodin.age,
-    owner: dogAshWoodin.owner,
-    breed: dogAshWoodin.breed,
-    walked: dogAshWoodin.walked,
-    behaviorIssues: dogAshWoodin.behaviorIssues,
-  };
+  // const dogAshWoodinPlain = {
+  //   name: dogAshWoodin.name,
+  //   age: dogAshWoodin.age,
+  //   owner: dogAshWoodin.owner,
+  //   breed: dogAshWoodin.breed,
+  //   walked: dogAshWoodin.walked,
+  //   behaviorIssues: dogAshWoodin.behaviorIssues,
+  // };
 
   //Next steps 4/17/24
   // put this information on a server for further testing and manipulation. create a server object for dogAshWoodin
