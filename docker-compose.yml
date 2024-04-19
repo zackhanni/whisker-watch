@@ -7,4 +7,3 @@ services:
     environment:
       POSTGRES_DB: whisker-watch-postgres
       POSTGRES_HOST_AUTH_METHOD: trust
- up
