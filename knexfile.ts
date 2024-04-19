@@ -1,3 +1,5 @@
+require("dotenv").config({ path: ".env.development" });
+
 import { Knex } from "knex";
 
 const config: Knex.Config = {
